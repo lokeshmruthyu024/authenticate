@@ -1,0 +1,152 @@
+.Container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  display: flex;
+  width: 500px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.LogoImage {
+  width: 184px;
+  height: 90px;
+}
+
+.welcome {
+  margin-top: 50px;
+  width: 450px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  font-weight: 400;
+  /* border: 1px solid black; */
+  text-align: left;
+  /* padding-left: 30px; */
+  padding-left: 10px;
+}
+
+.form {
+  width: 500px;
+  /* background-color: #2272DC; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Entries {
+  height: 90px;
+  width: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  /* margin-left: 50px; */
+  flex-direction: column;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.input {
+  width: 30px;
+  height: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px #00000040;
+  border: 1px solid #DFE2E5;
+}
+
+.label {
+  width: 400px;
+  text-align: start;
+  height: 40px;
+  margin-left: 40px;
+  font-size: 15px;
+  /* background-color: aqua; */
+  padding-top: 15px;
+  font-weight: 400;
+}
+
+.inputBox {
+  width: 360px;
+  height: 50px;
+  border-radius: 13px;
+  border: 1px solid #DFE2E5;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 500;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.inputBox:active {
+  border: 1px solid #DFE2E5;
+}
+
+.Entries1 {
+  height: 90px;
+  width: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  /* margin-left: 50px; */
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.inputBox1 {
+  width: 380px;
+  height: 50px;
+  border-radius: 13px;
+  border: 1px solid #DFE2E5;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  box-shadow: 0 4px 4px #00000040;
+  flex-direction: row;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+
+.Select {
+  height: 50px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border: 1px solid #DFE2E5;
+  width: 70px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.spareinputBox {
+  width: 100%;
+  border: 1px solid #DFE2E5;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.ButtonClass {
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  background-color: #2272DC;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttonClass {
+  width: 500px;
+  height: 100px;
+  margin-top: 30px;
+  /* border: 1px solid black; */
+}
